@@ -1,0 +1,115 @@
+[
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi)",
+    "category": "Income Support",
+    "level": "Central",
+    "description": "Direct income support scheme providing financial assistance to landholding farmer families to help manage agricultural and household expenses.",
+    "eligibility": [
+      "Indian citizen with cultivable agricultural land in the farmer family's name (as per official state land records)",
+      "Land must be owned by the farmer, spouse, or minor children",
+      "Institutional landholders are not eligible",
+      "Income tax payers, government employees, and professionals like doctors/CAs are excluded"
+    ],
+    "benefits": [
+      "Rs. 6,000 per year, paid in 3 equal installments of Rs. 2,000 every 4 months",
+      "Direct Benefit Transfer (DBT) straight to Aadhaar-linked bank account",
+      "Eligibility for Kisan Credit Card (KCC) with subsidised short-term loan interest rates"
+    ],
+    "applicationLink": "https://pmkisan.gov.in",
+    "applicationProcess": "Register online at pmkisan.gov.in under 'Farmers Corner', or apply through your nearest Common Service Centre (CSC). Aadhaar-linked bank account and eKYC are mandatory."
+  },
+  {
+    "id": "pmfby",
+    "name": "PMFBY (Pradhan Mantri Fasal Bima Yojana)",
+    "category": "Crop Insurance",
+    "level": "Central",
+    "description": "Crop insurance scheme protecting farmers against financial loss from crop damage due to natural calamities, pests, and diseases.",
+    "eligibility": [
+      "All farmers growing a notified crop in a notified area, including tenant farmers and sharecroppers with valid tenancy documents",
+      "Age 18-70 years with a valid Aadhaar-linked bank account",
+      "Registration must be completed before the state's announced cut-off date for the season"
+    ],
+    "benefits": [
+      "Up to 100% crop loss coverage credited directly to bank account via DBT",
+      "Low farmer premium: 2% for Kharif crops, 1.5% for Rabi crops, 5% for commercial/horticultural crops",
+      "Government subsidises the remaining premium amount",
+      "Covers losses from pre-sowing to post-harvest stages"
+    ],
+    "applicationLink": "https://pmfby.gov.in",
+    "applicationProcess": "Apply online at pmfby.gov.in, or through a Common Service Centre (CSC) or bank branch. Loss must be reported within 72 hours of the damaging event."
+  },
+  {
+    "id": "krishi-bhagya",
+    "name": "Krishi Bhagya Yojana",
+    "category": "Irrigation & Water Conservation",
+    "level": "Karnataka State",
+    "description": "Karnataka's flagship rainwater conservation scheme, helping farmers in dryland and drought-prone regions build farm ponds and irrigation infrastructure to stabilise crop yields.",
+    "eligibility": [
+      "Karnataka resident farmers with at least 1 acre of cultivable land",
+      "Primarily targeted at dryland districts (North Karnataka, Bayaluseeme) but extended to coastal and Malnad districts too",
+      "Farmers who already received subsidy for pump sets/drip irrigation in the last 3 years are not eligible for those specific components again, but can still apply for farm ponds"
+    ],
+    "benefits": [
+      "80% subsidy (about Rs. 70,000) for farm pond (Krishi Honda) construction for general category farmers; 90% (about Rs. 80,000) for SC/ST farmers",
+      "Up to 50% subsidy for polyhouses, capped at Rs. 15 lakh per acre",
+      "Subsidy also covers lift irrigation pumps, diesel motors, and shade nets",
+      "Subsidy is back-ended — paid after construction is completed and verified by the Agricultural Officer"
+    ],
+    "applicationLink": "https://raitamitra.karnataka.gov.in",
+    "applicationProcess": "Apply through your nearest Raitha Samparka Kendra (RSK) at the taluk level, or the District Agriculture Office."
+  },
+  {
+    "id": "krishi-yantra-dhare",
+    "name": "Krishi Yantra Dhare",
+    "category": "Farm Mechanisation",
+    "level": "Karnataka State",
+    "description": "Lets small and marginal farmers rent modern farm machinery at heavily subsidised rates instead of buying expensive equipment outright.",
+    "eligibility": [
+      "Karnataka resident farmers, especially small and marginal landholders who cannot afford to purchase machinery"
+    ],
+    "benefits": [
+      "Rent tractors, power tillers, combine harvesters, rotavators, paddy transplanters, seed drills, and sprayers",
+      "Rental rates of Rs. 200-2,000 per acre, versus Rs. 3,000-8,000 in the private rental market",
+      "Additional 50% discount for SC/ST and women farmers",
+      "500+ Custom Hiring Centres (CHCs) across Karnataka"
+    ],
+    "applicationLink": "https://yantradhare.karnataka.gov.in",
+    "applicationProcess": "Book machinery via the Yantra Karnataka mobile app or through your local Raitha Samparka Kendra (RSK)."
+  },
+  {
+    "id": "krishi-yantrikarana-tractor-subsidy",
+    "name": "Farm Machinery Subsidy (Tractors, Tillers, Pump Sets)",
+    "category": "Farm Mechanisation",
+    "level": "Karnataka State",
+    "description": "Subsidises the purchase (not just rental) of farm equipment like mini tractors, power tillers, and pump sets for Karnataka farmers, under the broader Krishi Bhagya and Krishi Yantrikarana schemes.",
+    "eligibility": [
+      "Karnataka resident with at least 1 acre of cultivable land and clear, updated land records (RTC)",
+      "Must not have already claimed a machinery subsidy from the government in recent years (commonly a 7-year gap requirement, confirm current rule locally)"
+    ],
+    "benefits": [
+      "General category: up to 50% subsidy on equipment like mini tractors, power tillers, rotavators, weeders, sprayers, diesel/solar pump sets",
+      "SC/ST farmers: up to 90% subsidy",
+      "Covers micro-irrigation systems and wire fencing components too"
+    ],
+    "applicationLink": "https://raitamitra.karnataka.gov.in",
+    "applicationProcess": "Apply online via the FRUITS portal, or offline at your nearest Raitha Samparka Kendra (RSK) with Aadhaar, land RTC/Pahani, bank passbook copy, photos, and dealer quotation."
+  },
+  {
+    "id": "kcc",
+    "name": "Kisan Credit Card (KCC)",
+    "category": "Credit & Loans",
+    "level": "Central",
+    "description": "Provides farmers with short-term credit at subsidised interest rates for agricultural and allied expenses, linked to PM-KISAN registration.",
+    "eligibility": [
+      "PM-KISAN registered beneficiaries are automatically eligible to apply",
+      "Owner cultivators, tenant farmers, and sharecroppers can apply with appropriate land/tenancy documents"
+    ],
+    "benefits": [
+      "Short-term loans at subsidised interest rates for crop production and allied agricultural needs",
+      "Simplified, faster processing for existing PM-KISAN beneficiaries"
+    ],
+    "applicationLink": "https://pmkisan.gov.in",
+    "applicationProcess": "Apply through your bank branch, or via the PM-KISAN portal if already a registered beneficiary."
+  }
+]
