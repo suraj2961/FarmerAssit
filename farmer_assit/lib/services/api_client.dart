@@ -14,7 +14,7 @@ class ApiException implements Exception {
 }
 
 class ApiClient {
-  static const Duration _timeout = Duration(seconds: 3);
+  static const Duration _timeout = Duration(seconds: 15);
   final http.Client _client;
 
   ApiClient({http.Client? client}) : _client = client ?? http.Client();

@@ -34,7 +34,7 @@ jobs:
 
       - name: 🌐 Build Flutter Web
         run: |
-          flutter build web --release --base-href "/FarmerAssit/"
+          flutter build web --release --base-href "/FarmerAssit/" --dart-define=API_BASE_URL=https://farmerassit-backend.onrender.com
         working-directory: farmer_assit
 
       - name: 🚀 Deploy to GitHub Pages
