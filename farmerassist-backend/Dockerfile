@@ -3,12 +3,13 @@
 FROM maven:3.9.8-eclipse-temurin-21-alpine AS builder
 WORKDIR /app
 
-# Copy pom and source code
+# Copy build config and source code
 COPY pom.xml .
+COPY settings.xml .
 COPY src ./src
 
-# Build application artifact
-RUN mvn clean package -DskipTests -B
+# Build application artifact using fast Google Cloud Maven mirror (bypasses rate limits)
+RUN mvn clean package -s settings.xml -DskipTests -B
 
 # Stage 2: Runtime
 FROM eclipse-temurin:21-jre-alpine
