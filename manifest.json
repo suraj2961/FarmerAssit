@@ -1,11 +1,11 @@
 {
-    "name": "farmer_assit",
-    "short_name": "farmer_assit",
+    "name": "ನೇಗಿಲು (Negilu) - FarmerAssist",
+    "short_name": "FarmerAssist",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#FAF6EC",
+    "theme_color": "#1C5A2C",
+    "description": "Live Karnataka APMC mandi prices, ML crop sell advisory, real-time weather forecasts, and government schemes for farmers.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
